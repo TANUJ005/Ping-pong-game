@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+.plot {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+
+}
+
+.user-paddle {
+    display: inline-block;
+    position: absolute;
+    height: 100px;
+    width: 20px;
+    background-color: green;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+
+.cpu-paddle {
+    display: inline-block;
+    position: absolute;
+    height: 100px;
+    width: 20px;
+    background-color: red;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+
+.mid-line {
+    position: absolute;
+    height: 100vh;
+    background-color: black;
+    border-left: dashed white 2px;
+    left: 50%;
+}
+
+.ball {
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.user-score {
+    position: absolute;
+    color: aliceblue;
+    left: 40%;
+    font-size: x-large;
+}
+
+.cpu-score {
+    position: absolute;
+    color: aliceblue;
+    right: 40%;
+    font-size: x-large;
+}
