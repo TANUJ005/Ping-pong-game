@@ -55,13 +55,13 @@ body {
 .user-score {
     position: absolute;
     color: aliceblue;
-    left: 40%;
+    left: 20%;
     font-size: x-large;
 }
 
 .cpu-score {
     position: absolute;
     color: aliceblue;
-    right: 40%;
+    right: 20%;
     font-size: x-large;
 }
